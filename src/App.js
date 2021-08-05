@@ -1,11 +1,18 @@
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+import Experience from "./pages/experience/Experience";
+import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
     <div className="page-container">
-      <Nav />
-      <div className="content-wrap">
-        <Router>
+      <Router>
+        <Nav />
+        <div className="content-wrap">
           <div className="App">
             <Switch>
               <Route exact path="/" component={Home} />
@@ -15,9 +22,9 @@ function App() {
               <Route path="/contact" component={Contact} />
             </Switch>
           </div>
-        </Router>
-      </div>
-      <Footer />
+        </div>
+        <Footer />
+      </Router>
     </div>
   );
 }
