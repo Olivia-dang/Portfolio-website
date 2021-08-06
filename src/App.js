@@ -1,17 +1,17 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Experience from "./pages/experience/Experience";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
+import Header from "./components/nav/Header";
 
 function App() {
   return (
     <div className="page-container">
       <Router>
-        <Nav />
+        <Header />
         <div className="content-wrap">
           <div className="App">
             <Switch>
