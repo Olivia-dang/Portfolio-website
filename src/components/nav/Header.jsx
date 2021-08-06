@@ -19,8 +19,13 @@ export default function Header() {
     <nav className="header" id="myTopnav">
         <div className="nav-left">
           <a href="/" className="logo">
-            LOGO
-          </a>
+          <img
+            src="images/psyduck-icon.svg"
+            alt="psyduck"
+            height="70"
+            width="57"
+          />
+        </a>
         </div>
         <div className="nav-right">
           <ul className={click ? "nav-options active" : "nav-options"}>

@@ -88,15 +88,18 @@
     align-content: center;
     padding-left: 0px;
     margin: 0px;
+    height: 200px;
   }
-  .nav-options.active :hover {
+  .nav-options :hover {
       color: #000;
   }
   .option {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vw;
     padding: 0px 0px;
+  }
+  .option-link {
+      width:100%;
   }
 }
