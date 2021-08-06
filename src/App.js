@@ -12,7 +12,6 @@ function App() {
     <div className="page-container">
       <Router>
         <Header />
-        <div className="content-wrap">
           <div className="App">
             <Switch>
               <Route exact path="/" component={Home} />
@@ -22,7 +21,6 @@ function App() {
               <Route path="/contact" component={Contact} />
             </Switch>
           </div>
-        </div>
         <Footer />
       </Router>
     </div>

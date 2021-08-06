@@ -28,7 +28,7 @@ export default function Header() {
         </a>
         </div>
         <div className="nav-right">
-          <ul className={click ? "nav-options active" : "nav-options"}>
+          <ul className={click ? "nav-options responsive" : "nav-options"}>
             <li className="option" onClick={closeMobileMenu}>
               <Link to="/home" className="option-link">HOME</Link>
             </li>
@@ -52,45 +52,4 @@ export default function Header() {
         </div>
     </nav>
   );
-  // return (
-  //   <nav className="header">
-  //     <div className="logo-nav">
-  //       <div className="logo-container">
-  //         <Link to="/home" className="option" onClick={closeMobileMenu}>
-  //           <img
-  //             src="images/small-psyduck.png"
-  //             alt="logo"
-  //             height="70"
-  //             width="57"
-  //             className="logo"
-  //           />
-  //         </Link>
-
-  //       </div>
-  //       <div className="links-nav">
-  //         <ul className={click ? "nav-options active" : "nav-options"}>
-  //           <li className="option" onClick={closeMobileMenu}>
-  //             <Link to="/home">HOME</Link>
-  //           </li>
-  //           <li className="option" onClick={closeMobileMenu}>
-  //             <Link to="/experience">EXPERIENCE</Link>
-  //           </li>
-  //           <li className="option" onClick={closeMobileMenu}>
-  //             <Link to="/projects">PROJECTS</Link>
-  //           </li>
-  //           <li className="option" onClick={closeMobileMenu}>
-  //             <Link to="/contact">CONTACT</Link>
-  //           </li>
-  //         </ul>
-  //       </div>
-  //       <div className="mobile-menu" onClick={handleClick}>
-  //         {click ? (
-  //           <CloseMenu className="menu-icon" />
-  //         ) : (
-  //           <MenuIcon className="menu-icon" />
-  //         )}
-  //       </div>
-  //     </div>
-  //   </nav>
-  // );
 }

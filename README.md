@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Steps to build an app like this:
+## Steps to build an app like this
 
 ```
 yarn create react-app portfolio-website
@@ -13,3 +13,5 @@ https://webaim.org/resources/contrastchecker/
 - Navbar:
 https://sdever.medium.com/building-a-responsive-navigation-bar-with-react-css-d9b30af03c20
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+- CSS Modules in React app:
+https://programmingwithmosh.com/react/css-modules-react/

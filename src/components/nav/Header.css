@@ -78,7 +78,7 @@
     grid-gap: 0px;
   }
 
-  .nav-options.active {
+  .nav-options.responsive {
     background: #9899d1;
     left: 0;
     opacity: 1;
