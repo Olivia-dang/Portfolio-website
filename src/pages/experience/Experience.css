@@ -1,5 +1,4 @@
 
-
 /*Style for title of each section*/
 .section-name {
     font-size: 2em;
@@ -11,20 +10,24 @@
 /*Skills section*/
 .col-50 {
     max-width: 275px;
-    margin-left:auto;
-    margin-right: auto;
+    margin: 0px auto;
 }
 .no-bullet {
     display: block;
     list-style: none;
     padding:0;
 }
+.no-bullet li {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .skills-title {
     display: inline-block;
 }
 .skills-score {
+    display: inline-block;
     color: #005a9e;
-    float: right;
 }
 .skills-container {
     margin-bottom: 30px;
@@ -57,8 +60,7 @@
 @media (min-width: 640px) {
     .col-50 {
         max-width: 360px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0px auto;
     }
     .experience-container {
         max-width: 600px;
@@ -75,6 +77,7 @@
     .col-50 {
         width: 40%;
         max-width: 300px;
+        margin: 0px auto;
     }
     .experience-container {
         max-width: 100%;
