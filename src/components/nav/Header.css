@@ -101,3 +101,9 @@
       width:100%;
   }
 }
+/*for desktop*/
+@media (min-width: 1008px) {
+  .header {
+    margin: 0 100px;
+  }
+}

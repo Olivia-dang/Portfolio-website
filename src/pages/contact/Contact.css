@@ -1,0 +1,50 @@
+
+.container {
+    margin: 60px 0;
+    padding: 1em 3em;
+}
+.no-bullet {
+    list-style: none;
+    padding-left: 2px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+}
+.no-bullet li{
+    margin-top: 20px;
+}
+.no-bullet a {
+    text-decoration: none;
+    color: #005a9e;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.icon {
+    font-size: 40px;
+    float:left;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    max-width: 788px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*For desktop*/
+@media (min-width: 1008px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-50 {
+        width: 50%;
+    }
+}
+

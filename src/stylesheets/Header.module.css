@@ -13,7 +13,7 @@ margin-block-start: 0px;
 margin-left: 20px;
 margin-right: 20px;
 }
-.headerBackground {
+.headerExperience {
     background: 
       linear-gradient(
         rgba(0, 0, 0, 0.6),
@@ -23,4 +23,15 @@ margin-right: 20px;
     height: 50vh;
     background-size: cover;
     background-position: center center;
+}
+.headerContact {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../assets/sunset.jpg); 
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
 }

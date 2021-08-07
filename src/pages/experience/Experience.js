@@ -9,7 +9,7 @@ import { ReactComponent as EmptyStar } from "../../assets/empty-star.svg";
 export default function Experience() {
   return (
     <div>
-      <div className={headerstyles.headerBackground}>
+      <div className={headerstyles.headerExperience}>
         <section className={headerstyles.headerText}>
           <h1>Experience</h1>
         </section>
