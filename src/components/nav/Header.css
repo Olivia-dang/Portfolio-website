@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #333;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 .option-link {
     display:block;
-  color: #f2f2f2;
+  color: #000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -37,13 +37,12 @@
 }
 
 .nav-options :hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #106ebe;
+    color: #fff;
 }
 
 .logo {
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,7 +61,7 @@
   .menu-icon {
     width: 45px;
     height: 45px;
-    color:#fff;
+    color:#000;
   }
   .nav-options {
     display: flex;
@@ -79,7 +78,7 @@
   }
 
   .nav-options.responsive {
-    background: #9899d1;
+    background: #9ed3fa;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -90,7 +89,7 @@
     height: 200px;
   }
   .nav-options :hover {
-      color: #000;
+      color: #fff;
   }
   .option {
     display: flex;
